@@ -34,13 +34,21 @@ I also added input validation in `Task.__post_init__` (time must be `HH:MM`, pri
 
 **a. Constraints and priorities**
 
-- What constraints does your scheduler consider (for example: time, priority, preferences)?
-- How did you decide which constraints mattered most?
+The scheduler considers:
+
+- **Time of day**: every task has an `"HH:MM"` start time and a duration, used for ordering and for spotting overlaps.
+- **Due date and recurrence**: only tasks due on the chosen day are planned. Daily and weekly tasks regenerate when completed.
+- **Priority** (high / medium / low): decides what gets dropped when there isn't enough time.
+- **The owner's time budget** (`Owner.available_minutes`): the total minutes of care the owner can give that day.
+- **Completion status**: finished tasks are excluded from conflicts and from the plan.
+
+I ranked **priority above time** when building the plan. Missing a medication or a meal is worse than missing grooming, so the plan should protect the essentials first and only then fill remaining time. Time of day is still used for the final ordering, because that's how an owner actually reads a plan.
 
 **b. Tradeoffs**
 
-- Describe one tradeoff your scheduler makes.
-- Why is that tradeoff reasonable for this scenario?
+**Greedy planning, not optimal packing.** `build_daily_plan()` walks tasks from highest to lowest priority and keeps each one that still fits in the remaining minutes. It never backtracks. That means it can leave some time unused: with 20 minutes left, one 25-minute medium task gets skipped even though two 10-minute low tasks might have fit instead. Solving that properly is a knapsack problem. For a pet owner, though, "the high-priority things always come first" is easier to trust and explain than a plan that drops a medium task to squeeze in two low ones. The simple greedy rule also produces a clear one-line reason for every decision.
+
+**Conflicts are warnings, not blockers.** `detect_conflicts()` checks real overlapping windows (start + duration), not just identical start times, but it only *reports* them. It doesn't move tasks or refuse to save them. Some "conflicts" are fine in real life (e.g., giving a cat its pill during breakfast), so the owner is better placed than the program to decide. The check is also pairwise (O(n²)), which is perfectly fast for the handful of tasks a household has per day.
 
 ---
 

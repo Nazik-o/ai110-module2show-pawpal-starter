@@ -83,14 +83,16 @@ Sample test output:
 
 ## 📐 Smarter Scheduling
 
-> Fill in once you've implemented scheduling logic.
+All scheduling logic lives on `Scheduler` in `pawpal_system.py` and reads tasks through `Owner.get_all_tasks()`, so it works across every pet.
 
 | Feature | Method(s) | Notes |
 |---------|-----------|-------|
-| Task sorting | | e.g., by priority, duration |
-| Filtering | | e.g., skip tasks if time runs out |
-| Conflict handling | | e.g., overlapping time slots |
-| Recurring tasks | | e.g., daily vs. weekly |
+| Task sorting (time) | `Scheduler.sort_by_time()` | `sorted()` with `key=lambda t: (t.due_date, t.time)`. Zero-padded `"HH:MM"` strings sort correctly as text, and `Task` validates that format on creation. |
+| Task sorting (priority) | `Scheduler.sort_by_priority()` | High → medium → low via a `PRIORITY_RANK` lookup, ties broken by time. |
+| Filtering | `Scheduler.filter_by_pet()`, `Scheduler.filter_by_status()`, `Scheduler.get_tasks_for_date()` | Filter by pet name, done/not done, or due date. Filters accept an optional task list, so they can be chained. |
+| Conflict handling | `Scheduler.detect_conflicts()` | Compares every pair of *pending* tasks on the same date and flags any whose `[start, start + duration)` windows overlap, which includes exact same-time clashes. Returns warning strings instead of raising, so the app never crashes on a clash. |
+| Recurring tasks | `Scheduler.mark_task_complete()`, `Task.next_occurrence()` | Completing a `daily` or `weekly` task automatically adds a fresh copy to the same pet, due today + 1 or + 7 days (`timedelta`). Completing a task twice doesn't create duplicates. |
+| Time-budget plan *(Challenge 1 + 3)* | `Scheduler.build_daily_plan()` → `DailyPlan` | Takes today's pending tasks in priority order and keeps each one that still fits in `Owner.available_minutes`. The result lists scheduled tasks (in time order), skipped tasks, and a one-line reason for every decision. |
 
 ## 📸 Demo Walkthrough
 
