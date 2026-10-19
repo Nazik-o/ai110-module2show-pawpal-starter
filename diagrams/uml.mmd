@@ -1,7 +1,8 @@
 classDiagram
-    %% Draft UML for PawPal+ (Phase 1). See uml_final.mmd for the final version.
+    %% PawPal+ class diagram, kept in sync with the final implementation (same as uml_final.mmd).
 
     class Task {
+        <<dataclass>>
         +str description
         +str time
         +int duration_minutes
@@ -9,10 +10,16 @@ classDiagram
         +str frequency
         +date due_date
         +bool completed
+        +str pet_name
         +mark_complete() None
+        +next_occurrence() Task | None
+        +start_minutes() int
+        +end_minutes() int
+        +time_range() str
     }
 
     class Pet {
+        <<dataclass>>
         +str name
         +str species
         +int age
@@ -26,18 +33,36 @@ classDiagram
         +int available_minutes
         +list~Pet~ pets
         +add_pet(pet) None
+        +get_pet(name) Pet | None
         +get_all_tasks() list~Task~
     }
 
     class Scheduler {
         +Owner owner
-        +sort_by_time() list~Task~
-        +filter_by_pet(name) list~Task~
-        +filter_by_status(completed) list~Task~
-        +mark_task_complete(task) None
-        +detect_conflicts() list~str~
+        +get_tasks_for_date(day) list~Task~
+        +sort_by_time(tasks) list~Task~
+        +sort_by_priority(tasks) list~Task~
+        +filter_by_pet(pet_name, tasks) list~Task~
+        +filter_by_status(completed, tasks) list~Task~
+        +mark_task_complete(task) Task | None
+        +detect_conflicts(tasks) list~str~
+        +build_daily_plan(day) DailyPlan
+    }
+
+    class DailyPlan {
+        <<dataclass>>
+        +date day
+        +int available_minutes
+        +list~Task~ scheduled
+        +list~Task~ skipped
+        +dict reasons
+        +int total_minutes
+        +reason_for(task) str
     }
 
     Owner "1" o-- "*" Pet : has
     Pet "1" o-- "*" Task : has
     Scheduler --> Owner : reads tasks via get_all_tasks()
+    Scheduler ..> DailyPlan : creates
+    Scheduler ..> Task : creates next occurrence
+    DailyPlan --> Task : scheduled / skipped

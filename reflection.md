@@ -46,7 +46,7 @@ I ranked **priority above time** when building the plan. Missing a medication or
 
 **b. Tradeoffs**
 
-**Greedy planning, not optimal packing.** `build_daily_plan()` walks tasks from highest to lowest priority and keeps each one that still fits in the remaining minutes. It never backtracks. That means it can leave some time unused: with 20 minutes left, one 25-minute medium task gets skipped even though two 10-minute low tasks might have fit instead. Solving that properly is a knapsack problem. For a pet owner, though, "the high-priority things always come first" is easier to trust and explain than a plan that drops a medium task to squeeze in two low ones. The simple greedy rule also produces a clear one-line reason for every decision.
+**Greedy planning, not optimal packing.** `build_daily_plan()` walks tasks from highest to lowest priority and keeps each one that still fits in the remaining minutes. It never backtracks, so it never trades one higher-priority task for a better overall mix. For example, with 30 minutes left, a 30-minute medium task takes the whole slot, even if the owner would rather fit three 10-minute low-priority tasks. Getting the best mix is a knapsack problem. For a pet owner, though, "the high-priority things always come first" is easier to trust and explain than an optimizer that sometimes drops a medium task to squeeze in lower ones. The simple greedy rule also produces a clear one-line reason for every decision.
 
 **Conflicts are warnings, not blockers.** `detect_conflicts()` checks real overlapping windows (start + duration), not just identical start times, but it only *reports* them. It doesn't move tasks or refuse to save them. Some "conflicts" are fine in real life (e.g., giving a cat its pill during breakfast), so the owner is better placed than the program to decide. The check is also pairwise (O(n²)), which is perfectly fast for the handful of tasks a household has per day.
 
@@ -56,13 +56,23 @@ I ranked **priority above time** when building the plan. Missing a medication or
 
 **a. How you used AI**
 
-- How did you use AI tools during this project (for example: design brainstorming, debugging, refactoring)?
-- What kinds of prompts or questions were most helpful?
+I used Claude Code as an agent inside VS Code for the whole build. I gave it the full project brief and asked it to read the starter repo and produce a plan before writing code. It came back with questions about my git setup and which optional challenges to include, then a phase-by-phase plan. After I approved the plan, it worked through the phases: UML and class skeletons, the core classes and CLI demo, Streamlit wiring, the algorithms, tests, and docs. It ran `main.py`, `pytest`, and a scripted Streamlit session after each phase and committed each phase separately.
+
+The most effective features were:
+- **Planning before coding.** Having the agent read the requirements and existing files and write a plan I could approve kept it from jumping straight into code.
+- **Running and verifying its own work.** It ran the demo, the tests, and a headless Streamlit session (`AppTest`), so problems surfaced as real failures rather than guesses.
+- **Multi-file edits.** Features like recurrence touched `Task`, `Scheduler`, `main.py`, the tests, and the README together.
+
+The most helpful prompts were concrete and scoped, like "make sure everything runs end to end", plus clear answers to its clarifying questions (e.g., choosing priority + time-budget scheduling as my extension instead of JSON persistence).
 
 **b. Judgment and verification**
 
-- Describe one moment where you did not accept an AI suggestion as-is.
-- How did you evaluate or verify what the AI suggested?
+- **Conflict detection design.** The brief suggests a lightweight exact-time match. The plan I approved goes further and checks real overlap (start + duration), because a 30-minute walk at 07:30 clashes with an 08:00 task in practice, not only when the start times are identical. I kept the "warn, don't crash" approach rather than auto-rescheduling, because a pill at breakfast is a "conflict" an owner may want.
+- **Scope.** The plan offered JSON persistence and extra formatting as extensions. I chose only priority + time-budget scheduling to keep the design focused on the scenario's "fit tasks to available time and explain why".
+- **Tests that were wrong, not code.** Twice during the UI tests, an assertion failed. Once a plan expected a skipped task, but after completing the morning walk everything genuinely fit in 60 minutes. Once a test compared `"08:00-08:10"` against `"08:00-08:05"` for two tasks that both start at 08:00. In both cases we worked the numbers by hand to confirm the scheduler was right and the expectation was wrong before changing anything.
+- **Demo output.** The first algorithmic `main.py` printed tomorrow's recurring walk in the "still to do" list with no date, which looked like a duplicate. We added a date column.
+
+I verified suggestions by running `python main.py` and reading the output line by line, by running `python -m pytest` after each change, and by checking key numbers (budget math, `timedelta` dates) by hand.
 
 ---
 
@@ -70,13 +80,17 @@ I ranked **priority above time** when building the plan. Missing a medication or
 
 **a. What you tested**
 
-- What behaviors did you test?
-- Why were these tests important?
+30 tests in total. `tests/test_pawpal.py` covers the core classes (`mark_complete`, `add_task` count, `Owner.get_all_tasks` across pets, input validation), chronological and priority sorting, pet/status filters, daily/weekly/one-off recurrence (including completing twice and overdue tasks), conflict detection (same time, overlapping durations, and no false positives for back-to-back tasks, other days, or completed tasks), and the budgeted daily plan. `tests/test_app.py` drives the actual Streamlit page through its forms and buttons.
+
+These matter because the scheduler's value is in rules that are easy to get subtly wrong. String-sorting `"9:00"` vs `"10:00"`, off-by-one recurrence dates, a duplicate follow-up task, or a false conflict alarm would all "run fine" but give an owner the wrong plan. The UI tests matter because Streamlit reruns the script on every click, and losing the `Owner` from `st.session_state` is a classic bug that unit tests can't see.
 
 **b. Confidence**
 
-- How confident are you that your scheduler works correctly?
-- What edge cases would you test next if you had more time?
+About 4 out of 5. Every rule I implemented has happy-path and edge-case tests, and the CLI and UI both run cleanly. Next I'd test:
+- Tasks that cross midnight (e.g., 23:45 for 30 minutes), which currently aren't compared against the next day's early tasks.
+- Very large numbers of tasks (performance of the O(n²) conflict check).
+- Two pets with the same name, and editing or deleting tasks once the UI supports it.
+- Completing a recurring task days early, and what "next occurrence" should mean then.
 
 ---
 
@@ -84,12 +98,15 @@ I ranked **priority above time** when building the plan. Missing a medication or
 
 **a. What went well**
 
-- What part of this project are you most satisfied with?
+The explainable daily plan. `build_daily_plan()` doesn't just output a list; it says *why* each task made the cut or didn't ("medium priority; needs 30 min but only 15 min left"). That directly answers the scenario's "explain why it chose that plan", and it made the logic easy to debug. I'm also happy that the `Scheduler` only ever talks to `Owner.get_all_tasks()`, so multi-pet support came for free.
 
 **b. What you would improve**
 
-- If you had another iteration, what would you improve or redesign?
+- Persist data to `data.json` so pets and tasks survive closing the app.
+- Let users edit and delete tasks in the UI, and suggest the next free time slot when a conflict is detected.
+- Give tasks a stable `id` instead of keying plan reasons by Python `id()`, which would also make persistence and editing simpler.
+- Handle tasks that span midnight.
 
 **c. Key takeaway**
 
-- What is one important thing you learned about designing systems or working with AI on this project?
+Being the "lead architect" means owning the decisions and the verification, not the keystrokes. The AI could write a working scheduler quickly, but the important calls were mine to make: what counts as a conflict, whether priority beats time, warn vs. block, and what to leave out. The UML-first, CLI-first workflow made those decisions visible early. Insisting on running the demo and tests after every step was what caught the mistakes, including the AI's mistakes in its own tests. Writing a plan up front and committing phase by phase served the same purpose as separate chat sessions: each phase had a clear goal and a checkpoint, so it was easy to see what changed and why.

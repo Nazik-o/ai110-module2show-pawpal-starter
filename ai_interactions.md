@@ -21,7 +21,7 @@ I gave Claude Code (agent mode in VS Code) the full project brief and asked it t
 5. Added the algorithms: `sort_by_time`, `sort_by_priority`, `filter_by_pet`/`filter_by_status`, `mark_task_complete` + `Task.next_occurrence` (recurrence), `detect_conflicts`, and `build_daily_plan` with the `DailyPlan` result.
 6. Ran `python main.py`, `python -m pytest`, and a scripted Streamlit `AppTest` after each phase, and made one commit per phase.
 
-Files modified: `pawpal_system.py`, `main.py`, `app.py`, `tests/test_pawpal.py`, `pytest.ini`, `diagrams/uml.mmd`, `diagrams/uml_final.mmd`, `README.md`, `reflection.md`, `ai_interactions.md`.
+Files modified: `pawpal_system.py`, `main.py`, `app.py`, `tests/test_pawpal.py`, `tests/test_app.py`, `pytest.ini`, `diagrams/uml.mmd`, `diagrams/uml_final.mmd`, `diagrams/uml_final.png`, `README.md`, `reflection.md`, `ai_interactions.md`.
 
 **What did you have to verify or fix manually?**
 
