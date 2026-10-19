@@ -22,6 +22,17 @@ Your final app should:
 - Display the plan clearly (and ideally explain the reasoning)
 - Include tests for the most important scheduling behaviors
 
+## Implementation summary
+
+All logic lives in `pawpal_system.py`. It has four classes:
+
+- **`Task`** (dataclass): one care activity, with description, `"HH:MM"` time, duration, priority, frequency, due date, completion status, and the name of the pet it belongs to.
+- **`Pet`** (dataclass): pet details plus its list of tasks. `add_task()` attaches a task and tags it with the pet's name.
+- **`Owner`**: the owner's name, their daily time budget (`available_minutes`), and their pets. `get_all_tasks()` returns every pet's tasks as one list.
+- **`Scheduler`**: the "brain". It takes an `Owner` and always reads tasks through `Owner.get_all_tasks()`, so every feature works across all pets at once.
+
+`main.py` is a CLI demo that builds an owner with two pets and prints today's schedule. `app.py` is the Streamlit UI on top of the same classes.
+
 ## Getting started
 
 ### Setup
@@ -44,14 +55,14 @@ pip install -r requirements.txt
 
 ## 🖥️ Sample Output
 
-Paste a sample of your app's CLI or Streamlit output here so a reader can see what a generated plan looks like:
+Output of `python main.py`:
 
 ```
-# e.g.:
-# Daily plan for Biscuit (Golden Retriever):
-#   08:00 — Morning walk (30 min) [priority: high]
-#   09:00 — Feeding (10 min) [priority: high]
-#   ...
+Today's Schedule for Jordan
+========================================
+  07:30  Mochi  Morning walk        30 min  [high]  (daily, todo)
+  08:00  Luna   Breakfast           10 min  [high]  (daily, todo)
+  14:00  Mochi  Vet appointment     45 min  [medium]  (once, todo)
 ```
 
 ## 🧪 Testing PawPal+
