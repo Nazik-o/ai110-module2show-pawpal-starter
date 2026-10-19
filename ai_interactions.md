@@ -28,7 +28,6 @@ Files modified: `pawpal_system.py`, `main.py`, `app.py`, `tests/test_pawpal.py`,
 - **Push access:** `origin` still pointed at the CodePath upstream repo, so I supplied my fork URL. The agent couldn't use my GitHub credentials, so I push the commits myself.
 - **Confusing demo output:** in the first algorithmic version of `main.py`, the auto-created "Morning walk" for tomorrow appeared in the "Still to do" list with no date, so it looked like a duplicate walk today. A due-date column fixed it.
 - **Recurrence edge cases:** I checked that completing a task twice doesn't spawn two follow-ups, and that an overdue daily task's next copy is due tomorrow rather than another past date. Both now have tests.
-- **Reflection review:** I read the reflection the agent drafted and edited it to describe my own experience.
 
 ---
 

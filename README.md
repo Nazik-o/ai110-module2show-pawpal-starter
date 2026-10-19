@@ -68,18 +68,39 @@ Today's Schedule for Jordan
 ## 🧪 Testing PawPal+
 
 ```bash
-# Run the full test suite:
-pytest
-
-# Run with coverage:
-pytest --cov
+# Run the full test suite (from the project root, with .venv activated):
+python -m pytest
 ```
+
+`pytest.ini` puts the project root on the import path, so plain `pytest` works too.
+
+The suite in `tests/test_pawpal.py` covers:
+
+- **Core classes**: `mark_complete()` flips status, `Pet.add_task()` increases the task count and tags the pet, and `Owner.get_all_tasks()` combines every pet's tasks. Invalid input (e.g. `"9:00"`, unknown priority, zero duration) is rejected.
+- **Sorting**: tasks come back in chronological order (date first, then time), and priority sort puts high before medium before low, breaking ties by time.
+- **Filtering**: by pet name and by completion status, including an unknown pet.
+- **Recurrence**: completing a daily task creates a new one due tomorrow; weekly creates one due in 7 days; one-off tasks create nothing; completing twice doesn't duplicate; an overdue daily task rolls forward from today.
+- **Conflict detection**: same start time across pets, overlapping durations, and no false alarms for back-to-back tasks, different days, or completed tasks.
+- **Daily plan**: respects the time budget, keeps high-priority tasks first, explains skipped tasks, and only plans today's pending tasks.
+- **Edge cases**: an owner whose pets have no tasks yields empty sorts, no conflicts, and an empty plan.
 
 Sample test output:
 
 ```
-# Paste your pytest output here
+============================= test session starts ==============================
+platform darwin -- Python 3.12.13, pytest-9.1.1, pluggy-1.7.0
+rootdir: /Users/norazgulyyev/Downloads/Codepath/ai110-module2show-pawpal-starter
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.15.1
+collected 25 items
+
+tests/test_pawpal.py .........................                           [100%]
+
+============================== 25 passed in 0.02s ==============================
 ```
+
+**Confidence level: ★★★★☆ (4/5).** Every scheduling rule (sorting, filtering, recurrence, conflicts, budgeted planning) has passing happy-path and edge-case tests. I'm holding back one star because the Streamlit UI is only covered by a scripted smoke test, not the unit suite, and some cases aren't modeled at all: tasks that cross midnight, and time zones.
 
 ## 📐 Smarter Scheduling
 
