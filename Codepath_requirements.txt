@@ -1,0 +1,1076 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier-Bold;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fnil\fcharset0 HelveticaNeue-Bold;
+\f3\fnil\fcharset0 HelveticaNeue;\f4\fnil\fcharset0 Menlo-Regular;\f5\froman\fcharset0 Times-Bold;
+\f6\fnil\fcharset0 HelveticaNeue-Italic;\f7\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red0\green0\blue0;\red251\green247\blue220;
+\red21\green18\blue69;\red246\green246\blue246;\red69\green69\blue69;\red228\green231\blue235;\red242\green242\blue242;
+\red193\green193\blue193;\red225\green225\blue225;\red50\green50\blue255;\red228\green244\blue255;\red207\green255\blue234;
+\red92\green32\blue1;\red27\green31\blue35;\red5\green40\blue131;\red13\green80\blue209;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;\cssrgb\c98824\c97255\c89020;
+\cssrgb\c10588\c10980\c34118;\cssrgb\c97255\c97255\c97255;\cssrgb\c34118\c34118\c34118;\cssrgb\c91373\c92549\c93725;\cssrgb\c96078\c96078\c96078;
+\cssrgb\c80000\c80000\c80000;\cssrgb\c90588\c90588\c90588;\cssrgb\c25882\c32157\c100000;\cssrgb\c91373\c96471\c100000;\cssrgb\c84314\c100000\c93333;
+\cssrgb\c43922\c17255\c0;\cssrgb\c14118\c16078\c18431;\cssrgb\c784\c23137\c58431;\cssrgb\c3529\c41176\c85490\c29020;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid402\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid8}
+{\list\listtemplateid9\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid802\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid9}
+{\list\listtemplateid10\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid902\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid10}
+{\list\listtemplateid11\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1002\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid11}
+{\list\listtemplateid12\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid12}
+{\list\listtemplateid13\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid13}
+{\list\listtemplateid14\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid14}
+{\list\listtemplateid15\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid15}
+{\list\listtemplateid16\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid16}
+{\list\listtemplateid17\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid17}
+{\list\listtemplateid18\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid18}
+{\list\listtemplateid19\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid19}
+{\list\listtemplateid20\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid20}
+{\list\listtemplateid21\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2002\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid21}
+{\list\listtemplateid22\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid22}
+{\list\listtemplateid23\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2202\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid23}
+{\list\listtemplateid24\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid24}
+{\list\listtemplateid25\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid25}
+{\list\listtemplateid26\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid26}
+{\list\listtemplateid27\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid27}
+{\list\listtemplateid28\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2702\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid28}
+{\list\listtemplateid29\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2802\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid29}
+{\list\listtemplateid30\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2902\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid30}
+{\list\listtemplateid31\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid3001\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid31}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}{\listoverride\listid9\listoverridecount0\ls9}{\listoverride\listid10\listoverridecount0\ls10}{\listoverride\listid11\listoverridecount0\ls11}{\listoverride\listid12\listoverridecount0\ls12}{\listoverride\listid13\listoverridecount0\ls13}{\listoverride\listid14\listoverridecount0\ls14}{\listoverride\listid15\listoverridecount0\ls15}{\listoverride\listid16\listoverridecount0\ls16}{\listoverride\listid17\listoverridecount0\ls17}{\listoverride\listid18\listoverridecount0\ls18}{\listoverride\listid19\listoverridecount0\ls19}{\listoverride\listid20\listoverridecount0\ls20}{\listoverride\listid21\listoverridecount0\ls21}{\listoverride\listid22\listoverridecount0\ls22}{\listoverride\listid23\listoverridecount0\ls23}{\listoverride\listid24\listoverridecount0\ls24}{\listoverride\listid25\listoverridecount0\ls25}{\listoverride\listid26\listoverridecount0\ls26}{\listoverride\listid27\listoverridecount0\ls27}{\listoverride\listid28\listoverridecount0\ls28}{\listoverride\listid29\listoverridecount0\ls29}{\listoverride\listid30\listoverridecount0\ls30}{\listoverride\listid31\listoverridecount0\ls31}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa300\partightenfactor0
+
+\f0\b\fs48 \cf0 \cb2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Show What You Know: PawPal+\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f1\fs36 \cf0 \uc0\u8505 \u65039  Project Overview\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\fs30 \cf0 \cb4 \uc0\u9200  ~4 hours
+\f3\b0 \cb1 \
+\cb4 You've been asked to design PawPal+, a smart pet care management system that helps owners keep their furry friends happy and healthy. The app will track daily routines -- feedings, walks, medications, and appointments -- while using algorithmic logic to organize and prioritize tasks.\cb1 \
+\cb4 In this project you will move from concept to a working application by designing a modular system architecture using Python\'92s object-oriented programming (OOP). You will act as the lead architect, using AI to brainstorm your design, scaffold your core logic, and implement sophisticated scheduling algorithms. You will practice a "CLI-first" workflow, ensuring your backend logic in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb4 \strokec3  is robust and verified through a demo script before connecting it to a modern Streamlit UI.\cb1 \
+\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f1\b\fs28\fsmilli14400 \cf0 \cb2 \uc0\u55356 \u57263  Goals\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f3\b0\fs30 \cf0 By completing this project, you will be able to...\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf7 \cb8 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \uc0\u8232 \cf0 \cb2 \strokec3 Design a modular system using Python classes and visualize relationships with AI-generated Mermaid.js UML diagrams.\cb1 \
+\ls1\ilvl0\cf7 \cb8 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \uc0\u8232 \cf0 \cb2 \strokec3 Implement OOP principles to represent real-world entities like 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb2 \strokec3 s, 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Pet
+\f3\fs30 \cf0 \cb2 \strokec3 s, and 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Task
+\f3\fs30 \cf0 \cb2 \strokec3 s.\cb1 \
+\ls1\ilvl0\cf7 \cb8 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \uc0\u8232 \cf0 \cb2 \strokec3 Develop algorithmic logic for sorting, conflict detection, and recurring task management.\cb1 \
+\ls1\ilvl0\cf7 \cb8 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \uc0\u8232 \cf0 \cb2 \strokec3 Verify system behavior through a CLI demo script and automated 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pytest
+\f3\fs30 \cf0 \cb2 \strokec3  suites generated with AI assistance.\cb1 \
+\ls1\ilvl0\cf7 \cb8 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \uc0\u8232 \cf0 \cb2 \strokec3 Communicate design intent and reflect on AI-human collaboration tradeoffs in a professional README and consolidated reflection.\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f5\b\fs37\fsmilli18750 \cf0 \cb2 Key terms
+\f3\b0\fs30 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \cb9 By the end of the module, practice your technical communication; attempt to use these words in a sentence aloud.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa200\partightenfactor0
+\ls2\ilvl0\cf0 \cb9 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 algorithm\cb1 \
+\ls2\ilvl0\cb9 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 class\cb1 \
+\ls2\ilvl0\cb9 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 context engineering\cb1 \
+\ls2\ilvl0\cb9 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 trade-off\cb1 \
+\ls2\ilvl0\cb9 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 UML\cb1 \
+\ls2\ilvl0\cb9 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 verification\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f1\b\fs36 \cf0 \cb2 \strokec3 \uc0\u9999 \u65039  Project Instructions\
+\pard\pardeftab720\partightenfactor0
+
+\fs45 \cf0 Phase 1: System Design with UML + AI Support
+\f3\b0\fs30 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb4 \uc0\u9200  ~45 mins
+\f3\b0 \cb1 \
+\cb4 In this phase, you'll design the structure of your PawPal+ app before writing any code. You'll use AI to help brainstorm and visualize the main components (Owner, Pet, Task, Scheduler) and how they connect in a simple UML diagram.\cb1 \
+\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 Step 1: Understand the Problem
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Go to the {\field{\*\fldinst{HYPERLINK "https://github.com/codepath/ai110-module2show-pawpal-starter"}}{\fldrslt 
+\f2\b \cf12 \ul \ulc12 \strokec12 PawPal+}} repo.\cb1 \
+\ls3\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Click 
+\f2\b Fork
+\f3\b0  to create your own copy under your GitHub account, then clone your fork to your computer.\cb1 \
+\ls3\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Clone the fork to your computer, then open the cloned folder in VS Code.\cb1 \
+\ls3\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Read the scenario in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 README.md
+\f3\fs30 \cf0 \cb2 \strokec3  to understand what PawPal+ is intended to do.\cb1 \
+\ls3\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Identify 
+\f2\b three core actions
+\f3\b0  a user should be able to perform (e.g., add a pet, schedule a walk, see today's tasks).\cb1 \
+\ls3\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 reflection.md
+\f3\fs30 \cf0 \cb2 \strokec3  and document these actions in natural language under the 
+\f2\b System Design
+\f3\b0  (section 1a "Initial design") section.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\partightenfactor0
+
+\f5\b\fs37\fsmilli18750 \cf0 \cb2 \strokec3 Remember to activate your venv!
+\f3\b0\fs30 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \cb9 See the {\field{\*\fldinst{HYPERLINK "https://courses.codepath.org/courses/ai110/pages/ide_setup.md"}}{\fldrslt \cf12 \ul \ulc12 \strokec12 Tool Setup page}} for the full environment guide.\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f1\b\fs36 \cf0 \cb9 Create a virtual environment if you don't already have one\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f3\b0\fs30 \cf0 \cb9 Navigate to your new cloned repo:\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 python3 -m venv .venv
+\f3\fs30 \cf0 \cb1 \strokec3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa200\partightenfactor0
+\ls4\ilvl0\cf0 \cb9 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Activate the virtual environment:\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb9 BASH/ZSH commands for MacOS, Git Bash on Windows, or WSL
+\f3\b0 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 source .venv/bin/activate
+\f3\fs30 \cf0 \cb1 \strokec3 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb9 Windows PowerShell
+\f3\b0  (note the backslashes, not forward slashes)\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 .\\.venv\\Scripts\\Activate.ps1
+\f3\fs30 \cf0 \cb1 \strokec3 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f1\b\fs36 \cf0 \cb9 Install dependencies\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\b0\fs26 \cf5 \cb6 \strokec5 python -m pip install --upgrade pip\
+pip install -r requirements.txt\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs30 \cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \cb1 \strokec3 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 Step 2: List the Building Blocks
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Brainstorm the main objects needed for the system. For each object, determine:\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa200\partightenfactor0
+\ls5\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 What information it needs to hold (
+\f2\b attributes
+\f3\b0 )\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls5\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 What actions it can perform (
+\f2\b methods
+\f3\b0 )\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 3: Draft Your UML with AI
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open your AI coding assistant's chat in VS Code.\cb1 \
+\ls6\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Mention you are designing a pet care app with the four classes identified above.\cb1 \
+\ls6\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Ask your AI coding assistant to create a Mermaid.js class diagram based on your brainstormed attributes and methods.\cb1 \uc0\u8232 \cb13 Mermaid is a text-based tool that renders diagrams. You can preview Mermaid code in VS Code or paste it into the {\field{\*\fldinst{HYPERLINK "https://mermaid.live/"}}{\fldrslt 
+\f2\b \cf12 \ul \ulc12 \strokec12 Mermaid Live Editor}} to see your chart.\cb1 \
+\ls6\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Review the diagram. Ensure relationships (like "Owner has Pets") make sense and that you haven't included unnecessary complexity.\cb1 \
+\ls6\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Save the Mermaid source text as a 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 .mmd
+\f3\fs30 \cf0 \cb2 \strokec3  file in your repo (e.g., 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 diagrams/uml_draft.mmd
+\f3\fs30 \cf0 \cb2 \strokec3 ). This is your working diagram which you'll update in Phase 6.\cb1 \
+\ls6\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f6\i Keep this diagram handy - we'll revisit it in Phase 6!
+\f3\i0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 4: Translate UML into a Skeleton
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls7\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Create a new file named 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3 . This will be your "logic layer" where all your backend classes live.\cb1 \
+\ls7\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Use your AI coding assistant's chat or 
+\f2\b agent mode
+\f3\b0  to generate the "skeleton" of your classes (the names, attributes, and empty method stubs) based on your UML.\cb1 \uc0\u8232 \cb13 Tell your AI coding assistant to use 
+\f2\b Python Dataclasses
+\f3\b0  for objects like 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Task
+\f3\fs30 \cf0 \cb13 \strokec3  and 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Pet
+\f3\fs30 \cf0 \cb13 \strokec3  to keep your code clean.\cb1 \
+\ls7\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Commit your draft to GitHub: 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 git commit -m "chore: add class skeletons from UML"
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 5: Reflect and Refine
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls8\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 reflection.md
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\ls8\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Answer section "1a. Initial design" by describing the classes you chose and their responsibilities.\cb1 \
+\ls8\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Ask your AI coding assistant to review your skeleton: attach 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3  and ask if it notices any missing relationships or potential logic bottlenecks.\cb1 \
+\ls8\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 If you make changes based on AI feedback, document what you changed and why in section "1b. Design changes".\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb14 \uc0\u55357 \u56525 
+\f2\b Checkpoint
+\f3\b0 : You've created a clear UML diagram and matching Python class skeletons in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb14 \strokec3 ! Your system's blueprint is complete and ready for implementation.\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs45 \cf0 \cb2 Phase 2: Core Implementation
+\f3\b0\fs30 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb4 \uc0\u9200  ~90 mins
+\f3\b0 \cb1 \
+\cb4 In this phase, you'll translate your UML design into working Python code. You'll follow a "CLI-first" workflow, meaning you'll build and verify your backend logic in a standalone script before touching the Streamlit UI. This ensures your system's "brain" is solid.\cb1 \
+\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 Step 1: Scaffold the Logic Layer
+\f3\b0 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \cb2 Now you'll write the full code for all your main classes.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls9\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Use your AI coding assistant's automatic editing or agent mode to flesh out the core implementation of your four classes in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb1 \strokec3 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls9\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Task
+\f3\fs30 \cf0 \cb2 \strokec3 : Represents a single activity (description, time, frequency, completion status).\cb1 \
+\ls9\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Pet
+\f3\fs30 \cf0 \cb2 \strokec3 : Stores pet details and a list of tasks.\cb1 \
+\ls9\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb2 \strokec3 : Manages multiple pets and provides access to all their tasks. Give it one method that returns every pet's tasks together (for example 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 get_all_tasks
+\f3\fs30 \cf0 \cb2 \strokec3 ).\cb1 \
+\ls9\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler
+\f3\fs30 \cf0 \cb2 \strokec3 : The "Brain" that retrieves, organizes, and manages tasks across pets. It must read from that 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb2 \strokec3  method rather than from a single pet, or it will not earn the multi-pet point.\cb1 \uc0\u8232 \cb13 If you aren't sure how a 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler
+\f3\fs30 \cf0 \cb13 \strokec3  should "talk" to an 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb13 \strokec3  to get pet data, ask your AI coding assistant: "Based on my skeletons in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb13 \strokec3 , how should the 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler
+\f3\fs30 \cf0 \cb13 \strokec3  retrieve all tasks from the 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb13 \strokec3 's pets?"\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 2: Create and Run a Demo Script
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls10\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Create a new file named 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 main.py
+\f3\fs30 \cf0 \cb2 \strokec3 . This is your temporary "testing ground" to verify your logic works in the terminal.\cb1 \
+\ls10\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Write a script in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 main.py
+\f3\fs30 \cf0 \cb2 \strokec3  that performs the following:\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls10\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Imports your classes from 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\ls10\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Creates an 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb2 \strokec3  and at least two 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Pet
+\f3\fs30 \cf0 \cb2 \strokec3 s .\cb1 \
+\ls10\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Adds at least three 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Task
+\f3\fs30 \cf0 \cb2 \strokec3 s with different times to those pets.\cb1 \
+\ls10\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Prints a "Today's Schedule" to the terminal.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls10\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Run your script: 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 python main.py
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \uc0\u8232 \cb13 If your schedule prints out as a messy list of objects, use 
+\f2\b your AI coding assistant's chat
+\f3\b0  on your print statement and ask: "Suggest a clearer, more readable way to format this schedule output for the terminal".\cb1 \
+\ls10\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Add a 
+\f2\b Sample Output
+\f3\b0  section to your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 README.md
+\f3\fs30 \cf0 \cb2 \strokec3  and paste the terminal output from running 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 main.py
+\f3\fs30 \cf0 \cb2 \strokec3  as a fenced code block. This is your evidence that the system runs correctly.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 3: Add Quick Tests
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls11\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open the terminal and ensure you have 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pytest
+\f3\fs30 \cf0 \cb2 \strokec3  installed (
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pip install pytest
+\f3\fs30 \cf0 \cb2 \strokec3 ).\cb1 \
+\ls11\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Create a file named 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 tests/test_pawpal.py
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\ls11\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Use your AI coding assistant to draft two simple tests:\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls11\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Task Completion:
+\f3\b0  Verify that calling 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 mark_complete()
+\f3\fs30 \cf0 \cb2 \strokec3  actually changes the task's status.\cb1 \
+\ls11\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Task Addition:
+\f3\b0  Verify that adding a task to a 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Pet
+\f3\fs30 \cf0 \cb2 \strokec3  increases that pet's task count.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls11\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Run your tests by typing 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 python -m pytest
+\f3\fs30 \cf0 \cb2 \strokec3  in the terminal.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 4: Document, Reflect, and Merge
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls12\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Use your AI coding assistant to add 1-line docstrings to your methods in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\ls12\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 In 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 README.md
+\f3\fs30 \cf0 \cb2 \strokec3 , add a short implementation summary that explains what you built and how the classes work together.\cb1 \
+\ls12\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 In 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 reflection.md
+\f3\fs30 \cf0 \cb2 \strokec3 , complete the AI collaboration reflection by describing what AI suggested, what you accepted or rejected, and how you verified the result.\cb1 \
+\ls12\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Ask your AI coding assistant to generate a commit message in the Source Control tab to summarize your implementation.\cb1 \
+\ls12\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Push your work: 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 git push origin main
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb14 \uc0\u55357 \u56525 
+\f2\b Checkpoint
+\f3\b0 : You've transformed your UML design into a functioning system! Your classes now work together to manage pets, tasks, and schedules, and you've verified them using a CLI demo script and initial automated tests.\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs45 \cf0 \cb2 Phase 3: UI and Backend Integration
+\f3\b0\fs30 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb4 \uc0\u9200  ~20 mins
+\f3\b0 \cb1 \
+\cb4 Currently, your logic (
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb4 \strokec3 ) and your user interface (
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 app.py
+\f3\fs30 \cf0 \cb4 \strokec3 ) live in separate worlds. In this phase, you will act as the "bridge" to ensure that when a user clicks a button in the app, your Python classes actually respond.\cb1 \
+\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 Step 1: Establish the Connection
+\f3\b0 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \cb2 To use the 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb2 \strokec3 , 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Pet
+\f3\fs30 \cf0 \cb2 \strokec3 , and 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Task
+\f3\fs30 \cf0 \cb2 \strokec3  classes inside your Streamlit script, you must first make them accessible.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls13\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Use a Python 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 import
+\f3\fs30 \cf0 \cb2 \strokec3  statement to bring specific classes from 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3  into 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 app.py
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 2: Manage the Application "Memory"
+\f3\b0 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \cb2 Streamlit is stateless, meaning it runs your code from top to bottom every time you click a button. If you simply create an 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb2 \strokec3  at the top of the script, it will be "reborn" (and empty) every time the page refreshes.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls14\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Use AI to investigate 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 st.session_state
+\f3\fs30 \cf0 \cb2 \strokec3 . Find out how to check if an object (like your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb2 \strokec3  instance) already exists in the "vault" of the session before creating a new one.\cb1 \uc0\u8232 \cb13 Think of 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 st.session_state
+\f3\fs30 \cf0 \cb13 \strokec3  as a dictionary. You want to store your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Owner
+\f3\fs30 \cf0 \cb13 \strokec3  object there so your data persists while you navigate the app.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 3: Wiring UI Actions to Logic
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls15\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Locate the UI components for "Adding a Pet" or "Scheduling a Task" in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 app.py
+\f3\fs30 \cf0 \cb2 \strokec3 . Replace those placeholders with calls to the methods you wrote in Phase 2.\cb1 \uc0\u8232 \cb13 If a user submits a form to add a new pet, which class method should handle that data, and how does the UI get updated to show the change?\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb14 \uc0\u55357 \u56525 
+\f2\b Checkpoint
+\f3\b0 : Your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 app.py
+\f3\fs30 \cf0 \cb14 \strokec3  successfully imports your logic layer! Adding a pet in the browser actually creates a 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Pet
+\f3\fs30 \cf0 \cb14 \strokec3  object that stays in memory.\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs45 \cf0 \cb2 Phase 4: Algorithmic Layer
+\f3\b0\fs30 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb4 \uc0\u9200  ~45 mins
+\f3\b0 \cb1 \
+\cb4 Make your PawPal+ system 
+\f6\i smart
+\f3\i0 ! In this phase, you'll add simple algorithms that make your app more functional and intelligent -- sorting, filtering, recurring tasks, and basic conflict detection. You'll ask AI to brainstorm, write, and compare solutions, learning how to evaluate algorithmic choices for clarity and efficiency.\cb1 \
+\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 Step 1: Review and Plan
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls16\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Review your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 main.py
+\f3\fs30 \cf0 \cb2 \strokec3  demo from Phase 2. Identify where the current logic feels manual or overly simple.\cb1 \
+\ls16\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open a 
+\f2\b new chat session
+\f3\b0  to keep your algorithmic planning separate from your core implementation.\cb1 \
+\ls16\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Reference or attach the relevant files and ask your AI coding assistant to suggest a list of small algorithms or logic improvements that could make your scheduling app more efficient for a pet owner.\cb1 \
+\ls16\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Target Features:
+\f3\b0  You will implement logic for sorting tasks by time, filtering by pet/status, handling recurring tasks, and basic conflict detection .\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 2: Implement Sorting and Filtering
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls17\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\ls17\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Sorting Logic:
+\f3\b0  Use your AI coding assistant's chat on your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler.sort_by_time()
+\f3\fs30 \cf0 \cb2 \strokec3  method to ask for a way to sort your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Task
+\f3\fs30 \cf0 \cb2 \strokec3  objects by their time attribute.\cb1 \uc0\u8232 \cb13 Python's 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 sorted()
+\f3\fs30 \cf0 \cb13 \strokec3  function is powerful. Ask your AI coding assistant how to use a 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 lambda
+\f3\fs30 \cf0 \cb13 \strokec3  function as a "key" to sort strings in "HH:MM" format.\cb1 \
+\ls17\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Filtering Logic:
+\f3\b0  Use your AI coding assistant to implement a method that filters tasks by completion status or pet name.\cb1 \
+\ls17\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Update your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 main.py
+\f3\fs30 \cf0 \cb2 \strokec3  to add tasks out of order, then print the results using your new sorting and filtering methods to ensure they work in the terminal.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 3: Automate Recurring Tasks
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls18\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Add logic to your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Task
+\f3\fs30 \cf0 \cb2 \strokec3  or 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler
+\f3\fs30 \cf0 \cb2 \strokec3  class so that when a "daily" or "weekly" task is marked complete, a new instance is automatically created for the next occurrence.\cb1 \
+\ls18\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Be sure your AI coding assistant has access to edit multiple files simultaneously for this change, as it may require edits to how 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 mark_task_complete
+\f3\fs30 \cf0 \cb2 \strokec3  interact with the 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Task
+\f3\fs30 \cf0 \cb2 \strokec3  frequency.\cb1 \uc0\u8232 \cb13 If a task happens "Daily," its new due date should be 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 today + 1 day
+\f3\fs30 \cf0 \cb13 \strokec3 . Ask your AI coding assistant how to use Python's 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 timedelta
+\f3\fs30 \cf0 \cb13 \strokec3  to calculate this accurately.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 4: Detect Task Conflicts
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls19\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Extend your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler
+\f3\fs30 \cf0 \cb2 \strokec3  to detect if two tasks for the same pet (or different pets) are scheduled at the same time.\cb1 \
+\ls19\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Ask your AI coding assistant for a "lightweight" conflict detection strategy that returns a warning message rather than crashing the program.\cb1 \
+\ls19\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Update 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 main.py
+\f3\fs30 \cf0 \cb2 \strokec3  with two tasks at the same time and verify that your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler
+\f3\fs30 \cf0 \cb2 \strokec3  correctly identifies and prints a warning.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 5: Evaluate and Refine
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls20\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Share one of your completed algorithmic methods with your AI coding assistant and ask: "How could this algorithm be simplified for better readability or performance?".\cb1 \
+\ls20\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Review the AI's suggestion. If its version is more "Pythonic" but harder for a human to read, decide which version to keep.\cb1 \
+\ls20\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 reflection.md
+\f3\fs30 \cf0 \cb2 \strokec3  and document one tradeoff your scheduler makes (e.g., only checking for exact time matches instead of overlapping durations) in section "2b. Tradeoffs".\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 6: Document and Merge
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls21\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Use your AI coding assistant to add docstrings to your new algorithmic methods.\cb1 \
+\ls21\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Update your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 README.md
+\f3\fs30 \cf0 \cb2 \strokec3  with a dedicated 
+\f2\b Smarter Scheduling
+\f3\b0  section that documents each feature you implemented and names the method that implements it:\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls21\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Sorting behavior (e.g., 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler.sort_by_time()
+\f3\fs30 \cf0 \cb2 \strokec3 )\cb1 \
+\ls21\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Filtering behavior (e.g., by pet or completion status)\cb1 \
+\ls21\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Conflict detection logic\cb1 \
+\ls21\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Recurring task logic\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls21\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Commit and push your changes directly to the 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 main
+\f3\fs30 \cf0 \cb2 \strokec3  branch:\cb1 \uc0\u8232 
+\f4\fs26 \cf5 \cb6 \strokec5 git add \cf15 \strokec15 .\cf5 \strokec5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls21\ilvl0\cf5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 git commit \cf16 \strokec16 -m\cf5 \strokec5  \cf17 \strokec17 "feat: implement sorting, filtering, and conflict detection"\cf5 \strokec5 \
+\ls21\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 git push origin main\
+\ls21\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f3\fs30 \cb18 \uc0\u8232 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb14 \uc0\u55357 \u56525 
+\f2\b Checkpoint
+\f3\b0 : You've added algorithmic intelligence to PawPal+! Your system can now sort, filter, detect conflicts, and handle recurring tasks, all verified through your CLI demo script.\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs45 \cf0 \cb2 Phase 5: Testing and Verification
+\f3\b0\fs30 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb4 \uc0\u9200  ~30 mins
+\f3\b0 \cb1 \
+\cb4 In this phase, you'll test and verify that your PawPal+ system works as intended. You'll write and run simple tests to confirm that your classes, algorithms, and scheduling logic behave correctly, and use AI to help generate, explain, and review those tests.\cb1 \
+\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 Step 1: Plan What to Test
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls22\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Review your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3  and list 3\'965 core behaviors to verify.\cb1 \
+\ls22\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Start a new chat session in your AI coding assistant's chat to focus entirely on testing.\cb1 \
+\ls22\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Reference or attach the relevant files and ask your AI coding assistant for a test plan: "What are the most important edge cases to test for a pet scheduler with sorting and recurring tasks?"\cb1 \uc0\u8232 \cb13 Focus on "happy paths" (everything works) and "edge cases" (e.g., a pet with no tasks, or two tasks at the exact same time).\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 2: Build the Automated Test Suite
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls23\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Navigate back to 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 tests/test_pawpal.py
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\ls23\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Use your AI coding assistant to draft your test functions.\cb1 \
+\ls23\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Ensure your suite includes at least:\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls23\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Sorting Correctness:
+\f3\b0  Verify tasks are returned in chronological order.\cb1 \
+\ls23\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Recurrence Logic:
+\f3\b0  Confirm that marking a daily task complete creates a new task for the following day.\cb1 \
+\ls23\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Conflict Detection:
+\f3\b0  Verify that the 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler
+\f3\fs30 \cf0 \cb2 \strokec3  flags duplicate times.\cb1 \uc0\u8232 \cb13 Use your AI assistant's chat to explain any test code you don't understand before you save it.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 3: Run and Debug
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls24\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 In your terminal, run your tests using: 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 python -m pytest
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\ls24\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 If a test fails, use your AI coding assistant's chat on the failing test and ask: "Why is this test failing, and is the bug in my test code or my 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3  logic?".\cb1 \
+\ls24\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Rerun 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 python -m pytest
+\f3\fs30 \cf0 \cb2 \strokec3  until all tests pass with green checkmarks.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 4: Finalize Documentation and Merge
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls25\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 README.md
+\f3\fs30 \cf0 \cb2 \strokec3  and add a section titled "Testing PawPal+".\cb1 \
+\ls25\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Include the command to run tests (
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 python -m pytest
+\f3\fs30 \cf0 \cb2 \strokec3 ) and a brief description of what your tests cover.\cb1 \
+\ls25\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Paste the terminal output of a successful test run as a fenced code block (the output from 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 python -m pytest
+\f3\fs30 \cf0 \cb2 \strokec3 ).\cb1 \
+\ls25\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Provide your "Confidence Level" (1\'965 stars) in the system's reliability based on your test results.\cb1 \
+\ls25\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Commit and push your test suite to the 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 main
+\f3\fs30 \cf0 \cb2 \strokec3  branch:\cb1 \uc0\u8232 
+\f4\fs26 \cf5 \cb6 \strokec5 git add \cf15 \strokec15 .\cf5 \strokec5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls25\ilvl0\cf5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 git commit \cf16 \strokec16 -m\cf5 \strokec5  \cf17 \strokec17 "test: add automated test suite for PawPal+ system"\cf5 \strokec5 \
+\ls25\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 git push origin main\
+\ls25\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f3\fs30 \cb18 \uc0\u8232 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb14 \uc0\u55357 \u56525 
+\f2\b Checkpoint
+\f3\b0 : You've built a robust test suite that verifies your system's intelligence! You've practiced using AI to generate and debug tests while maintaining the human oversight needed to ensure they are meaningful.\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs45 \cf0 \cb2 Phase 6: UI Polish, Documentation, and Reflection
+\f3\b0\fs30 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb4 \uc0\u9200  ~30 mins
+\f3\b0 \cb1 \
+\cb4 In this final phase, you will package your PawPal+ project for others to understand and use. You'll ensure your UI accurately reflects the smart logic you built, finalize your system diagram, and complete a deep reflection on your AI-assisted engineering process.\cb1 \
+\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 Step 1: Reflect the Algorithmic Layer in the UI
+\f3\b0 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \cb2 Your backend is now "smart," but your UI might still be basic. Ensure the user can actually see and use the features you built in Phase 3.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls26\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Update your display logic in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 app.py
+\f3\fs30 \cf0 \cb2 \strokec3  to use the methods from your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler
+\f3\fs30 \cf0 \cb2 \strokec3  class (like sorting or conflict warnings).\cb1 \
+\ls26\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Use Streamlit components like 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 st.success
+\f3\fs30 \cf0 \cb2 \strokec3 , 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 st.warning
+\f3\fs30 \cf0 \cb2 \strokec3 , or 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 st.table
+\f3\fs30 \cf0 \cb2 \strokec3  to make the sorted and filtered data look professional.\cb1 \uc0\u8232 \cb13 If your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Scheduler
+\f3\fs30 \cf0 \cb13 \strokec3  flags a task conflict, how should that warning be presented in the Streamlit UI to be most helpful to a pet owner?\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 2: Finalize Your System Architecture (UML)
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls27\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Revisit the Mermaid.js UML diagram you drafted in Phase 1. Does it still match your final code in 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3 ?\cb1 \
+\ls27\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Attach 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3  and ask your AI coding assistant: "Based on my final implementation, what updates should I make to my initial UML diagram to accurately show how my classes interact?".\cb1 \
+\ls27\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Adjust your Mermaid code to reflect any new methods or relationships you added during the build.\cb1 \
+\ls27\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Save the updated Mermaid source as 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 diagrams/uml_final.mmd
+\f3\fs30 \cf0 \cb2 \strokec3  in your project folder. Export a PNG for the README if you'd like, but the 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 .mmd
+\f3\fs30 \cf0 \cb2 \strokec3  source file is required.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 3: Polish Your README
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls28\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 README.md
+\f3\fs30 \cf0 \cb2 \strokec3 . Your README should act as a professional manual for your app.\cb1 \
+\ls28\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Reference or attach the relevant files and ask your AI coding assistant to help draft a "Features" list that accurately describes the algorithms you implemented (e.g., "Sorting by time," "Conflict warnings," "Daily recurrence").\cb1 \
+\ls28\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Replace the "\u55357 \u56568  Demo" section with a 
+\f2\b Demo Walkthrough
+\f3\b0  that describes, in text:\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls28\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 The main UI features and what actions a user can perform\cb1 \
+\ls28\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 An example workflow (e.g., add a pet, then schedule a task, then view today's schedule)\cb1 \
+\ls28\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Key Scheduler behaviors shown (sorting, conflict warnings, etc.)\cb1 \
+\ls28\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 A fenced code block of sample CLI output from running 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 main.py
+\f3\fs30 \cf0 \cb1 \strokec3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls28\ilvl0\cf0 \cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Optional: you may still include screenshots for human reviewers, but the text walkthrough and CLI output are what make your demo gradable.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb2 \strokec3 Step 4: Write Your Reflection
+\f3\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls29\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Open 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 reflection.md
+\f3\fs30 \cf0 \cb2 \strokec3 . You will complete the structured prompts covering your design choices, tradeoffs, and AI strategy.\cb1 \
+\ls29\ilvl0\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Reflect on AI Strategy: Specifically describe your experience with your AI coding assistant:\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa200\partightenfactor0
+\ls29\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Which AI coding assistant features were most effective for building your scheduler?\cb1 \
+\ls29\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Give one example of an AI suggestion you rejected or modified to keep your system design clean.\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls29\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 How did using separate chat sessions for different phases help you stay organized?\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls29\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 Summarize what you learned about being the "lead architect" when collaborating with powerful AI tools.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb14 \uc0\u55357 \u56525 
+\f2\b Checkpoint
+\f3\b0 : You've documented, reflected on, and finalized your PawPal+ project, transforming it from a coding exercise into a polished, professional artifact! You can now clearly explain your design, your reasoning, and your role as the human collaborator in an AI-assisted workflow.\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs45 \cf0 \cb2 Optional Extensions
+\f3\b0\fs30 \cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f2\b \cf0 \cb4 \uc0\u9200  ~30 mins
+\f3\b0 \cb1 \
+\cb4 Finished early or want to challenge yourself? Try extending PawPal+ with new features or smarter functionality. Each idea below builds on what you\'92ve already learned while letting you explore new tools or techniques.\cb1 \
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls30\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Challenge 1: Advanced Algorithmic Capability
+\f3\b0 \cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa200\partightenfactor0
+\ls30\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Add a third algorithmic capability (like "next available slot", weighted prioritization, etc.) that goes beyond the basic requirements.\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls30\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Add an 
+\f2\b "Agent Workflow"
+\f3\b0  section to your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 ai_interactions.md
+\f3\fs30 \cf0 \cb2 \strokec3  documenting: which files were modified, what you asked the agent to do, what it completed, and any manual corrections you made.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls30\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Challenge 2: Data Persistence
+\f3\b0 \cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa200\partightenfactor0
+\ls30\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Make your PawPal+ system remember pets and tasks between runs by saving them to a 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 data.json
+\f3\fs30 \cf0 \cb2 \strokec3  file.\cb1 \
+\ls30\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Add 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 save_to_json
+\f3\fs30 \cf0 \cb2 \strokec3  and 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 load_from_json
+\f3\fs30 \cf0 \cb2 \strokec3  methods to 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 pawpal_system.py
+\f3\fs30 \cf0 \cb2 \strokec3  so data persists between application runs.\cb1 \
+\ls30\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 In your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 README.md
+\f3\fs30 \cf0 \cb2 \strokec3 , explain the persistence workflow and which files were modified.\cb1 \uc0\u8232 \cb13 Persistence can be tricky with complex objects. Ask your AI coding assistant how to use a library like 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 marshmallow
+\f3\fs30 \cf0 \cb13 \strokec3  or a custom dictionary conversion to handle JSON serialization.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls30\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Challenge 3: Advanced Priority Scheduling
+\f3\b0 \cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa200\partightenfactor0
+\ls30\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Go beyond simple time sorting by adding 
+\f2\b Priority-Based Scheduling
+\f3\b0 .\cb1 \
+\ls30\ilvl1\cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Add a "Priority" level (Low, Medium, High) to your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 Task
+\f3\fs30 \cf0 \cb2 \strokec3  class and update your Scheduler to sort by priority first, then by time.\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls30\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 In your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 README.md
+\f3\fs30 \cf0 \cb2 \strokec3 , include CLI output examples demonstrating the enhanced scheduling logic (not a screenshot).\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls30\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Challenge 4: Professional UI and Output Formatting
+\f3\b0 \cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa200\partightenfactor0
+\ls30\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Add some user-friendly output such as color-coded status indicators, emojis for different task types, or structured CLI tables using libraries like 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 tabulate
+\f3\fs30 \cf0 \cb2 \strokec3 .\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls30\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 In your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 README.md
+\f3\fs30 \cf0 \cb2 \strokec3 , document the formatting features you added and which functions or libraries you used.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls30\ilvl0\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b Challenge 5: Multi-Model Prompt Comparison
+\f3\b0 \cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa200\partightenfactor0
+\ls30\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Choose a complex algorithmic task (like the logic for rescheduling weekly tasks) and ask for a solution from two different models (e.g., Claude vs. Gemini, or ChatGPT vs. Copilot).\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls30\ilvl1\cf0 \cb2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 In your 
+\f4\fs26\fsmilli13125 \cf5 \cb6 \strokec5 ai_interactions.md
+\f3\fs30 \cf0 \cb2 \strokec3 , add a structured 
+\f2\b Prompt Comparison
+\f3\b0  section that covers: model/tool used, the prompt/task, what was useful about the output, what was flawed, and your final decision.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb14 \uc0\u55357 \u56525 
+\f2\b Checkpoint
+\f3\b0 : You've gone beyond the base requirements and made PawPal+ more capable and professional! These extensions demonstrate your ability to use AI for high-level system planning, data management, and user experience design.\cb1 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f1\b\fs36 \cf0 \cb2 \uc0\u55357 \u56556  Submitting Your Project\
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f3\b0\fs30 \cf0 Once you've completed all the required features for your project, use the following checklist to prepare your work for submission.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa200\partightenfactor0
+\ls31\ilvl0\cf0 \cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Code is pushed to the correct GitHub repository\cb1 \
+\ls31\ilvl0\cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Repo is public\cb1 \
+\ls31\ilvl0\cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Required files are present (code, README, reflection, tests if applicable)\cb1 \
+\ls31\ilvl0\cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Commit history shows multiple meaningful commits\cb1 \
+\ls31\ilvl0\cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Reflection answers the prompts with specific, honest details\cb1 \
+\ls31\ilvl0\cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Final changes are committed and pushed before the deadline\cb1 \
+\ls31\ilvl0\cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	7	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Submit your assignment using the submit button in Week 5.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb11 \strokec10 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f1\b\fs36 \cf0 \cb2 \strokec3 \uc0\u55357 \u56826 \u65039  How It's Graded\
+\pard\pardeftab720\partightenfactor0
+
+\f6\i\b0\fs30 \cf0 A detailed breakdown of graded features and points can be found on the course {\field{\*\fldinst{HYPERLINK "https://courses.codepath.org/courses/ai110/pages/grading#heading-project-2-pawpal"}}{\fldrslt \cf12 \ul \ulc12 \strokec12 grading}} page.
+\f3\i0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f7\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+}
